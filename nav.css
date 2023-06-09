@@ -1,0 +1,31 @@
+.container__navigation {
+  display: flex;
+}
+
+.container__navigation > div:nth-child(1) {
+  background-color: #3bb77e;
+  color: white;
+  flex-basis: 20%;
+}
+
+.container__navigation > div:nth-child(2) {
+  flex-basis: 60%;
+  background: red;
+}
+.container__navigation > div:nth-child(3) {
+  flex-basis: 20%;
+  background: green;
+}
+
+.container__navigation > div:nth-child(3) img {
+  width: 100px;
+}
+
+.container__navigation > div:nth-child(2) > ul {
+  display: flex;
+  align-items: center;
+}
+.container__navigation > div:nth-child(2) > ul li a {
+  display: flex;
+  align-items: center;
+}
